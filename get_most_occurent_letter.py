@@ -1,4 +1,9 @@
 import re
+import unittest
+
+"""
+This simple script returns most occurent letter in given string 
+"""
 
 def check_letters(text):
 
@@ -47,7 +52,7 @@ if __name__ == '__main__':
 
     #local testing
 
-    assert check_letters("H.P.Lovecraft") == "a", "Start"
+    self.assertEqual(check_letters("H.P.Lovecraft"), "a")
 
     assert check_letters("How about this one?") == "o", "O is most wanted"
 

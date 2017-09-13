@@ -1,3 +1,8 @@
+"""
+This simple script returns one out of three results for Tic-Tac-Toe 
+(or Xs and Os) game: X for X player, O for O player or D for draw
+"""
+
 possible_moves = ("X", "O")
 empty = "D"
 
